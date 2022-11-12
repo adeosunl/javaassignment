@@ -1,5 +1,4 @@
-const pI = 3.14;
-
+/*const pI = 3.14;
 document.getElementById("pI").innerHTML = pI;
 
 console.log(pI);
@@ -41,7 +40,7 @@ console.log(name3);
 All of this assignment should show on the console.log and on the home page. */
 
 //solution
-
+/*
 const information = {
   firstName: "adeosun",
   lastName: "olumide",
@@ -83,3 +82,62 @@ function myFunction(p1, p2) {
 const myFunc = myFunction(10, 10);
 
 myFunctions.innerHTML = myFunc;
+*/
+
+// let text1 = "Adeosun";
+// let text2 = "Olumide";
+// let text3 = "Jeremiah";
+// let text4 = text1.concat(" ", text2, text3);
+// document.getElementById("demose").innerHTML = text4;
+// console.log(demose);
+
+// function myFunction() {
+//   let str = document.getElementById("demos").innerHTML;
+//   let txt = str.replace("olumide", "OLUMIDE");
+//   document.getElementById("demos").innerHTML = txt;
+//   console.log(txt);
+// }
+
+// BTN.addEventListener("click", myFunction);
+
+// var str = document.getElementById("demoses");
+// var str = "Apple, mango, cherry";
+// var res = str.slice(7, 12);
+// document.getElementById("demoses").innerHTML = res;
+// console.log(demoses);
+
+// var txt = "A1234567890-sdfgl;'wertyuiop";
+// var sn = txt.length;
+// document.getElementById("democra").innerHTML = sn;
+// console.log(democra);
+
+// var str = document.getElementById("demos").innerHTML;
+// var txt = str.replace("olumide", "OLUMIDE");
+// document.getElementById("demos").innerHTML = txt;
+// console.log(txt);
+/*
+const button = document.getElementById("BTN");
+const Text = document.getElementById("demos");
+
+// const a = "bvhbkjvhjdbjvh djbkhvdbhvhdb";
+// const Trima = a.trim();
+
+function myFunction() {
+  let text = document.getElementById("demos").innerHTML;
+  document.getElementById("demos").innerHTML = text.replaceAll(
+    "olumide",
+    "OLUMIDE"
+  );
+}
+
+button.addEventListener("click", myFunction);
+
+let firstText = "Hello ";
+let secondText = "world ";
+let lastText = " MyWolrd";
+
+let allText = firstText.concat("", secondText, lastText);
+
+console.log(allText);
+*/
+
