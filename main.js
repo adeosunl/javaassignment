@@ -141,3 +141,52 @@ let allText = firstText.concat("", secondText, lastText);
 console.log(allText);
 */
 
+let car = [
+  "toyota",
+  "mazda",
+  "tacoma",
+  "highlander",
+  "corolla",
+  "lambogini",
+  "micra",
+  "toyota",
+  "mazda",
+  "tacoma",
+  "highlander",
+  "corolla",
+  "mazda",
+  "toyota",
+  "mazda",
+  "tacoma",
+  "highlander",
+  "corolla",
+  "lambogini",
+  "micra",
+];
+const d = new Date()
+
+const newCars = car.slice(0, 10);
+
+BTN.addEventListener("click", function () {
+  document.getElementById("model").innerHTML = d;
+});
+
+document.getElementById("model").innerHTML = car;
+
+let fruits, text, fLen, i;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+fLen = fruits.length;
+
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+document.getElementById("mode").innerHTML = text;
+
+console.log(text);
+
+let number = (3000 + 410) * 2;
+
+document.getElementById("number").innerHTML = number;
+console.log(number);
